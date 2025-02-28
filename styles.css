@@ -1124,3 +1124,14 @@ footer {
   width: auto;
   
 }
+
+ .footerlogo {
+  display: inline-block;
+ }
+
+.footerlogo img {
+  margin-top: 0px;
+  height: 90px; /* Adjust logo height */
+  width: auto;
+}
+
