@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homepage</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo"><img src="logo.png"></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  
+
+  <div class="marquee-container">
+    <div class="marquee">
+      <div class="marquee-item">
+        <img src="blender.png" alt="Company Logo 1">
+      </div>
+      <div class="marquee-item">
+        <img src="cooper.png" alt="Company Logo 2">
+      </div>
+      <div class="marquee-item">
+        <img src="ford.png" alt="Company Logo 3">
+      </div>
+      <div class="marquee-item">
+        <img src="unilever.png" alt="Company Logo 4">
+      </div>
+      <div class="marquee-item">
+        <img src="unreal.png" alt="Company Logo 5">
+      </div>
+      <!-- Duplicate the logos for a seamless loop -->
+      <div class="marquee-item">
+        <img src="sky.png" alt="Company Logo 1">
+      </div>
+      <div class="marquee-item">
+        <img src="r.png" alt="Company Logo 2">
+      </div>
+      <div class="marquee-item">
+        <img src="nike.png" alt="Company Logo 3">
+      </div>
+      <div class="marquee-item">
+        <img src="blender.png" alt="Company Logo 4">
+      </div>
+      <div class="marquee-item">
+        <img src="ferrari.png" alt="Company Logo 5">
+      </div>
+       <!-- Duplicated logos -->
+           <div class="marquee-item">
+        <img src="cooper.png" alt="Company Logo 1">
+      </div>
+      <div class="marquee-item">
+        <img src="unilever.png" alt="Company Logo 2">
+      </div>
+      <div class="marquee-item">
+        <img src="ford.png" alt="Company Logo 3">
+      </div>
+      <div class="marquee-item">
+        <img src="r.png" alt="Company Logo 4">
+      </div>
+      <div class="marquee-item">
+        <img src="nike.png" alt="Company Logo 5">
+      </div>
+    </div>
+  </div>
+
+
+  
+  <section class="hero">
+    <div class="hero-content" data-aos="fade-up">
+    
+      <h1>Welcome to My Portfolio</h1>
+      <p>I'm a passionate developer creating amazing web experiences.</p>
+      <a href="about.html" class="btn">Learn More</a>
+    </div>
+  </section>
+
+ <section class="about-section">
+    <div class="about-container">
+      <h2 data-aos="fade-up">About Me</h2>
+      <p data-aos="fade-up" data-aos-delay="100">Here's a little bit about who I am and what I do.</p>
+
+      <div class="about-content">
+        <!-- Profile Image -->
+        <div class="profile-image" data-aos="fade-right" data-aos-delay="200">
+          <img src="musyokas.jpg" alt="Profile Picture">
+        </div>
+
+        <!-- About Text -->
+        <div class="about-text" data-aos="fade-left" data-aos-delay="200">
+          <h3>Hello, I'm Cornellius</h3>
+          <p>
+            I'm a passionate web developer with a love for creating beautiful and functional websites. 
+            With over 1 year of experience, I specialize in front-end development, UX/UI design,
+            responsive web design and graphics design. I enjoy turning complex problems into simple, intuitive solutions.
+          </p>
+          <p>
+            When I'm not coding, you can find me exploring new technologies, contributing to open-source 
+            projects, or enjoying a good cup of coffee.
+          </p>
+          <a href="skills.html" class="btn">View My Skills</a>
+        </div>
+      </div>
+
+      <!-- Fun Facts Section -->
+      <div class="fun-facts" data-aos="fade-up" data-aos-delay="300">
+        <h3>Fun Facts About Me</h3>
+        <div class="facts-grid">
+          <div class="fact-item">
+            <i class="fas fa-code"></i>
+            <p>7+ Projects Completed</p>
+          </div>
+          <div class="fact-item">
+            <i class="fas fa-coffee"></i>
+            <p>1000+ Cups of Coffee</p>
+          </div>
+          <div class="fact-item">
+            <i class="fas fa-globe"></i>
+            <p>Works from Kenya</p>
+          </div>
+          <div class="fact-item">
+            <i class="fas fa-heart"></i>
+            <p>Passionate About Design</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+ <section class="skills">
+    <div class="container">
+      <h1 data-aos="fade-up">My Skills</h1>
+      <div class="skills-grid">
+        <!-- Skill Card 1 -->
+        <div class="skill-card" data-aos="fade-right">
+          <div class="skill-icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <h3>HTML5</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 95%;" data-progress="95"></div>
+          </div>
+          <p>Proficient in creating semantic and accessible HTML structures.</p>
+        </div>
+
+        <!-- Skill Card 2 -->
+        <div class="skill-card" data-aos="fade-right" data-aos-delay="100">
+          <div class="skill-icon">
+            <i class="fab fa-css3-alt"></i>
+          </div>
+          <h3>CSS3</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 90%;" data-progress="90"></div>
+          </div>
+          <p>Experienced in responsive design, animations, and modern CSS techniques.</p>
+        </div>
+
+        <!-- Skill Card 3 -->
+        <div class="skill-card" data-aos="fade-right" data-aos-delay="200">
+          <div class="skill-icon">
+            <i class="fab fa-js"></i>
+          </div>
+          <h3>JavaScript</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 85%;" data-progress="85"></div>
+          </div>
+          <p>Skilled in building interactive and dynamic web applications.</p>
+        </div>
+
+        <!-- Skill Card 4 -->
+        <div class="skill-card" data-aos="fade-right" data-aos-delay="300">
+          <div class="skill-icon">
+            <i class="fab fa-react"></i>
+          </div>
+          <h3>React</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 80%;" data-progress="80"></div>
+          </div>
+          <p>Proficient in building reusable components and state management.</p>
+        </div>
+
+        <!-- Skill Card 5 -->
+        <div class="skill-card" data-aos="fade-right" data-aos-delay="400">
+          <div class="skill-icon">
+            <i class="fab fa-node"></i>
+          </div>
+          <h3>Node.js</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 75%;" data-progress="75"></div>
+          </div>
+          <p>Experience in building scalable and efficient back-end systems.</p>
+        </div>
+
+        <!-- Skill Card 6 -->
+        <div class="skill-card" data-aos="fade-right" data-aos-delay="500">
+          <div class="skill-icon">
+             <i class="fas fa-palette"></i>
+          </div>
+          <h3>Graphics design</h3>
+          <div class="progress-bar">
+            <div class="progress" style="width: 70%;" data-progress="70"></div>
+          </div>
+          <p>Creating visually appealing designs for web and print media.</p>
+          <button class="animated-link">More</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+ 
+
+ <section class="contact-section">
+    <div class="contact-container">
+      <h2 data-aos="fade-up" class="contH2">Get in Touch</h2>
+      <p data-aos="fade-up" data-aos-delay="100" class="contP">Feel free to reach out to me</p>
+
+      <div class="contact-content">
+        <!-- Contact Form -->
+        <div class="contact-form" data-aos="fade-right" data-aos-delay="200">
+          <a href="contact.html" class="btn1">Click here to view my contact</a>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="contact-info" data-aos="fade-left" data-aos-delay="200">
+          <div class="info-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <p>Nairobi, Kenya</p>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-envelope"></i>
+            <p>cornellmusyoka@gmail.com</p>
+          </div>
+          <div class="info-item">
+            <i class="fas fa-phone"></i>
+            <p>+254 703 125432</p>
+          </div>
+          <div class="social-links">
+            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <div class="like-section">
+  <button id="likeButton">
+    <span id="likeIcon">❤️</span>
+    <span id="likeCount">0</span> Likes
+  </button>
+</div>
+
+
+  <footer>
+  <div class="footer-container">
+    <!-- Quick Links -->
+    <div class="footer-section">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Social Media Links -->
+    <div class="footer-section">
+      <h3>Follow Me</h3>
+      <ul class="social-links">
+        <li><a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+        <li><a href="https://github.com" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+        <li><a href="https://Whatsapp.com" target="_blank"><i class="fab fa-whatsapp"></i>whatsapp</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact Information -->
+    <div class="footer-section">
+      <h3>Contact Info</h3>
+      <ul>
+        <li><i class="fas fa-envelope"></i>cornellmusyoka@gmail.com</li>
+        <li><i class="fas fa-phone"></i> +254 703 125432</li>
+        <li><i class="fas fa-map-marker-alt"></i>Nairobi, Kenya</li>
+      </ul>
+    </div>
+
+    <!-- Newsletter Signup (Optional) -->
+    <div class="footer-section">
+      <h3>Newsletter</h3>
+      <p>Subscribe to my newsletter for updates.</p>
+      <form class="newsletter-form">
+        <input type="email" placeholder="Enter your email" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Copyright Notice -->
+  <div class="footer-bottom">
+    <p>&copy; 2025 CornelliusMusyoka. All rights reserved.</p>
+  </div>
+</footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="script.js"></script>
+  <script src="scrip.js"></script>
+  <script src="newsletter.js"></script>
+  <script src="more.js"></script>
+ 
+</body>
+</html>

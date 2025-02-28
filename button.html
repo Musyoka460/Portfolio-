@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glowing Link</title>
+    <style>huh
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: white;
+        }
+        .glowing-link {
+            position: relative;
+            padding: 15px 30px;
+            font-size: 20px;
+            font-weight: bold;
+            color: black;
+            background: white;
+            text-decoration: none;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.8);
+            animation: glow 2s infinite alternate;
+        }
+        @keyframes glow {
+            0% { box-shadow: 0 0 10px #ff0000; }
+            25% { box-shadow: 0 0 20px #00ff00; }
+            50% { box-shadow: 0 0 30px #0000ff; }
+            75% { box-shadow: 0 0 20px #ff00ff; }
+            100% { box-shadow: 0 0 10px #ffff00; }
+        }
+    </style>
+</head>
+
+</html>

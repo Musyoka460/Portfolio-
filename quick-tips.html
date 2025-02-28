@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quick Tips</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo"><img src="logo.png"></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="quick-tip-section">
+    <div class="quick-tip-container">
+      <h2 data-aos="fade-up">Quick Tips</h2>
+      <p data-aos="fade-up" data-aos-delay="100">Explore more tips to enhance your skills and productivity.</p>
+
+      <!-- Quick Tip Cards -->
+      <div class="quick-tip-cards">
+        <!-- Tip 1 -->
+        <div class="quick-tip-card" data-aos="fade-right" data-aos-delay="200">
+          <div class="tip-icon">
+            <i class="fas fa-lightbulb"></i>
+          </div>
+          <h3>Plan Your Project</h3>
+          <p>Start by defining your goals and creating a roadmap. A well-planned project is easier to execute and manage.</p>
+        </div>
+
+        <!-- Tip 2 -->
+        <div class="quick-tip-card" data-aos="fade-up" data-aos-delay="300">
+          <div class="tip-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>Write Clean Code</h3>
+          <p>Always follow best practices and write clean, readable, and maintainable code. It saves time in the long run.</p>
+        </div>
+
+        <!-- Tip 3 -->
+        <div class="quick-tip-card" data-aos="fade-left" data-aos-delay="400">
+          <div class="tip-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3>Collaborate Effectively</h3>
+          <p>Use tools like Git and project management software to collaborate with your team efficiently.</p>
+        </div>
+
+        <!-- Add more tips here -->
+      </div>
+    </div>
+  </section>
+  
+  <!-- Button to Homepage -->
+<div class="quick-tip-button" data-aos="fade-up" data-aos-delay="500">
+  <a href="index.html" class="btn glowing-btn">Back to Home</a>
+</div>
+
+  <footer>
+    <p>&copy; 2025 CornelliusMusyoka. All rights reserved.</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script src="script.js"></script>
+  <script src="newsletter.js"></script>
+</body>
+</html>
