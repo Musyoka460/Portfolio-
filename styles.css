@@ -1134,5 +1134,27 @@ footer {
   height: 90px; /* Adjust logo height */
   width: auto;
 }
+/* Light (300) */
+.light-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
 
+/* Regular (400) */
+.regular-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+}
+
+/* Bold (700) */
+.bold-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+/* Black (900) */
+.black-text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+}
   
